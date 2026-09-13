@@ -1,0 +1,5 @@
+a-share-review 程序依赖（可选增强）：
+  akshare>=1.14   # 安装后数据源自动切换为 akshare；未安装时使用东方财富公开接口（纯标准库兜底）
+
+核心程序零第三方依赖，Python 3.10+ 直接运行：
+  python main.py --mode post --screener volume_breakout
